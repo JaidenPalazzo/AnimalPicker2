@@ -10,11 +10,11 @@ public class AnimalPicker2{
 
     public AnimalPicker2(){ 
 
-        while(!animal.equals("dog") && !animal.equals("cat")){
-            System.out.println("Which animal would you like? (cat or dog)"); 
+        while(!animal.equals("dog") && !animal.equals("cat") && !animal.equals("fish")){
+            System.out.println("Which animal would you like? (cat, fish, or dog)"); 
             animal = scanner.nextLine();
 
-            if(!animal.equals("dog") && !animal.equals("cat")){
+            if(!animal.equals("dog") && !animal.equals("cat") && !animal.equals("fish")){
                 System.out.println("Invalid choice!"); 
             }
 
@@ -39,7 +39,14 @@ public class AnimalPicker2{
                                 "  \\____)|_) \\_)"); 
         }
 
-
+         else if(animal.equals("fish")){
+            System.out.println("      /`·.¸\n" + //
+                                "     /¸...¸`:·\n" + //
+                                " ¸.·´  ¸   `·.¸.·´)\n" + //
+                                ": © ):´;      ¸  {\n" + //
+                                " `·.¸ `·  ¸.·´\\`·¸)\n" + //
+                                "     `\\\\´´\\¸.·´");
+        }
 
 
     }
