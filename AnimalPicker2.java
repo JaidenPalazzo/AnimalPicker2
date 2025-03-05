@@ -14,9 +14,17 @@ public class AnimalPicker2{
             System.out.println("CAT ASCII ART HERE"); 
         }
 
-        else {
+        else if(animal.equals("dog"){
             System.out.println("DOG ASCII ART HERE"); 
         }
 
+        else{
+            System.out.println("Invalid choice!"); 
+        }
+
+
+    }
+    public static void main(String [] args){
+        new AnimalPicker2(); 
     }
 }
