@@ -20,11 +20,23 @@ public class AnimalPicker2{
 
         }
         if (animal.equals("cat")){
-            System.out.println("CAT ASCII ART HERE"); 
+            System.out.println(" |\\__/,|   (`\\\n" + //
+                                " |_ _  |.--.) )\n" + //
+                                " ( T   )     /\n" + //
+                                "(((^_(((/(((_/"); 
         }
 
         else if(animal.equals("dog")){
-            System.out.println("DOG ASCII ART HERE"); 
+            System.out.println("         __\n" + //
+                                "        /  \\\n" + //
+                                "       / ..|\\\n" + //
+                                "      (_\\  |_)\n" + //
+                                "      /  \\@'\n" + //
+                                "     /     \\\n" + //
+                                " _  /  `   |\n" + //
+                                "\\\\/  \\  | _\\\n" + //
+                                " \\   /_ || \\\\_\n" + //
+                                "  \\____)|_) \\_)"); 
         }
 
 
